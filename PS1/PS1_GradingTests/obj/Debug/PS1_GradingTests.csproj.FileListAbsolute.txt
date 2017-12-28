@@ -1,0 +1,15 @@
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\PS1_GradingTests.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\PS1_GradingTests.pdb
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\FormulaEvaluator.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\FormulaEvaluator.pdb
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\obj\Debug\PS1_GradingTests.csprojResolveAssemblyReference.cache
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\obj\Debug\PS1_GradingTests.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\obj\Debug\PS1_GradingTests.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\PS1_GradingTests\obj\Debug\PS1_GradingTests.pdb

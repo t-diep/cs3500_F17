@@ -1,0 +1,9 @@
+C:\Users\antho\source\repos\u0934661\PS1\FormulaEvaluatorTester\obj\Debug\FormulaEvaluatorTester.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\bin\Debug\FormulaEvaluatorTester.exe.config
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\bin\Debug\FormulaEvaluatorTester.exe
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\bin\Debug\FormulaEvaluatorTester.pdb
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\bin\Debug\FormulaEvaluator.pdb
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\obj\Debug\FormulaEvaluatorTester.exe
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\obj\Debug\FormulaEvaluatorTester.pdb
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\bin\Debug\FormulaEvaluator.dll
+C:\Users\antho\Source\Repos\u0934661\PS1\FormulaEvaluatorTester\obj\Debug\FormulaEvaluatorTester.csprojResolveAssemblyReference.cache

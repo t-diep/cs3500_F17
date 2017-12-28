@@ -1,0 +1,6 @@
+C:\Users\antho\source\repos\u0934661\PS1\View\bin\Debug\View.exe.config
+C:\Users\antho\source\repos\u0934661\PS1\View\bin\Debug\View.exe
+C:\Users\antho\source\repos\u0934661\PS1\View\bin\Debug\View.pdb
+C:\Users\antho\source\repos\u0934661\PS1\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\u0934661\PS1\View\obj\Debug\View.exe
+C:\Users\antho\source\repos\u0934661\PS1\View\obj\Debug\View.pdb
