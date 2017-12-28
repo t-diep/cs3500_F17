@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\u0934661\PS4\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\Users\antho\source\repos\u0934661\PS4\Resources\obj\Debug\Resources.csproj.CoreCompileInputs.cache

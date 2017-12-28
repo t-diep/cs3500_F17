@@ -1,0 +1,7 @@
+C:\Users\antho\Source\Repos\u0934661\PS3\Formula\bin\Debug\Formula.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\Formula\bin\Debug\Formula.pdb
+C:\Users\antho\Source\Repos\u0934661\PS3\Formula\obj\Debug\Formula.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\PS3\Formula\obj\Debug\Formula.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\Formula\obj\Debug\Formula.pdb
+C:\Users\antho\Source\Repos\u0934661\PS3\Formula\bin\Debug\Formula.xml
+C:\Users\antho\Source\Repos\u0934661\PS3\Formula\obj\Debug\Formula.csprojResolveAssemblyReference.cache

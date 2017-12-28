@@ -25,12 +25,7 @@ namespace FormulaEvaluator
         /// <returns>true if the value is on top of the stack and false otherwise</returns>
         public static bool IsOnTopOfStack(this Stack<String> stack, String value)
         {
-            if (stack.Count > 0 && stack.Peek().Equals(value))
-            {
-                return true;
-            }
-
-            return false;
+            return stack.Count > 0 && stack.Peek().Equals(value);
         }
     }
 
@@ -42,17 +37,13 @@ namespace FormulaEvaluator
     /// </summary>
     public static class Evaluator
     {
-        ///
-        /// Now we should see in both branches
-        ///
-
         /// <summary>
         /// Evaluates / computes a given mathematical function while also using a lookup function 
         /// to evaluate numerical values in the case of variables
         /// </summary>
-        /// <param name="v" - the cleanToken to be passed under our evaluator function></param>
+        /// <param name="token" - the token to be passed under our evaluator function></param>
         /// <returns> a numeric value corresponding to our operand </returns>
-        public delegate int Lookup(String v);
+        public delegate int Lookup(String token);
 
         /// <summary>
         /// Evaluates a given formula/expression that may compute a numerical value 

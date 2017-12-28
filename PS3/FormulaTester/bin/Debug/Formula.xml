@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Formula</name>
+    </assembly>
+    <members>
+        <member name="T:SpreadsheetUtilities.FormulaExtensionStack">
+            <summary>
+            Allows us to add customary methods to the built-in Stack data structure in C#
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SpreadsheetUtilities.FormulaExtensionStack.IsOnTopOfStack(System.Collections.Generic.Stack{System.String},System.String,System.String)" -->
+        <member name="T:SpreadsheetUtilities.Formula">
+            <summary>
+            Represents formulas written in standard infix notation using standard precedence
+            rules.  The allowed symbols are non-negative numbers written using double-precision 
+            floating-point syntax; variables that consist of a letter or underscore followed by 
+            zero or more letters, underscores, or digits; parentheses; and the four operator 
+            symbols +, -, *, and /.  
+            
+            Spaces are significant only insofar that they delimit tokens.  For example, "xy" is
+            a single variable, "x y" consists of two variables "x" and y; "x23" is a single variable; 
+            and "x 23" consists of a variable "x" and a number "23".
+            
+            Associated with every formula are two delegates:  a normalizer and a validator.  The
+            normalizer is used to convert variables into a canonical form, and the validator is used
+            to add extra restrictions on the validity of a variable (beyond the standard requirement 
+            that it consist of a letter or underscore followed by zero or more letters, underscores,
+            or digits.)  Their use is described in detail in the constructor and method comments.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.#ctor(System.String)">
+            <summary>
+            Creates a Formula from a string that consists of an infix expression written as
+            described in the class comment.  If the expression is syntactically invalid,
+            throws a FormulaFormatException with an explanatory Message.
+            
+            The associated normalizer is the identity function, and the associated validator
+            maps every string to true.  
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.#ctor(System.String,System.Func{System.String,System.String},System.Func{System.String,System.Boolean})">
+            <summary>
+            Creates a Formula from a string that consists of an infix expression written as
+            described in the class comment.  If the expression is syntactically incorrect,
+            throws a FormulaFormatException with an explanatory Message.
+            
+            The associated normalizer and validator are the second and third parameters,
+            respectively.  
+            
+            If the formula contains a variable v such that normalize(v) is not a legal variable, 
+            throws a FormulaFormatException with an explanatory message. 
+            
+            If the formula contains a variable v such that isValid(normalize(v)) is false,
+            throws a FormulaFormatException with an explanatory message.
+            
+            Suppose that N is a method that converts all the letters in a string to upper case, and
+            that V is a method that returns true only if a string consists of one letter followed
+            by one digit.  Then:
+            
+            new Formula("x2+y3", N, V) should succeed
+            new Formula("x+y3", N, V) should throw an exception, since V(N("x")) is false
+            new Formula("2x+y3", N, V) should throw an exception, since "2x+y3" is syntactically incorrect.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.Evaluate(System.Func{System.String,System.Double})">
+             <summary>
+             Evaluates this Formula, using the lookup delegate to determine the values of
+             variables.  When a variable symbol v needs to be determined, it should be looked up
+             via lookup(normalize(v)). (Here, normalize is the normalizer that was passed to 
+             the constructor.)
+             
+             For example, if L("x") is 2, L("X") is 4, and N is a method that converts all the letters 
+             in a string to upper case:
+             
+             new Formula("x+7", N, s => true).Evaluate(L) is 11
+             new Formula("x+7").Evaluate(L) is 9
+             
+             Given a variable symbol as its parameter, lookup returns the variable's value 
+             (if it has one) or throws an ArgumentException (otherwise).
+             
+             If no undefined variables or divisions by zero are encountered when evaluating 
+             this Formula, the value is returned.  Otherwise, a FormulaError is returned.  
+             The Reason property of the FormulaError should have a meaningful explanation.
+            
+             This method should never throw an exception.
+             </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.GetVariables">
+            <summary>
+            Enumerates the normalized versions of all of the variables that occur in this 
+            formula.  No normalization may appear more than once in the enumeration, even 
+            if it appears more than once in this Formula.
+            
+            For example, if N is a method that converts all the letters in a string to upper case:
+            
+            new Formula("x+y*z", N, s => true).GetVariables() should enumerate "X", "Y", and "Z"
+            new Formula("x+X*z", N, s => true).GetVariables() should enumerate "X" and "Z".
+            new Formula("x+X*z").GetVariables() should enumerate "x", "X", and "z".
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.ListsAreTheSame(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Helps compare if two lists are the same; that is, they have the exact same elements 
+            among each other
+            </summary>
+            <param name="firstList">first list</param>
+            <param name="secondList">second list</param>
+            <returns>true if all elements in first list also exist in the second one
+            and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.ToString">
+            <summary>
+            Returns a string containing no spaces which, if passed to the Formula
+            constructor, will produce a Formula f such that this.Equals(f).  All of the
+            variables in the string should be normalized.
+            
+            For example, if N is a method that converts all the letters in a string to upper case:
+            
+            new Formula("x + y", N, s => true).ToString() should return "X+Y"
+            new Formula("x + Y").ToString() should return "x+Y"
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.Equals(System.Object)">
+            <summary>
+            If obj is null or obj is not a Formula, returns false.  Otherwise, reports
+            whether or not this Formula and obj are equal.
+            
+            Two Formulae are considered equal if they consist of the same tokens in the
+            same order.  To determine token equality, all tokens are compared as strings 
+            except for numeric tokens and variable tokens.
+            Numeric tokens are considered equal if they are equal after being "normalized" 
+            by C#'s standard conversion from string to double, then back to string. This 
+            eliminates any inconsistencies due to limited floating point precision.
+            Variable tokens are considered equal if their normalized forms are equal, as 
+            defined by the provided normalizer.
+            
+            For example, if N is a method that converts all the letters in a string to upper case:
+             
+            new Formula("x1+y2", N, s => true).Equals(new Formula("X1  +  Y2")) is true
+            new Formula("x1+y2").Equals(new Formula("X1+Y2")) is false
+            new Formula("x1+y2").Equals(new Formula("y2+x1")) is false
+            new Formula("2.0 + x7").Equals(new Formula("2.000 + x7")) is true
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.op_Equality(SpreadsheetUtilities.Formula,SpreadsheetUtilities.Formula)">
+            <summary>
+            Reports whether f1 == f2, using the notion of equality from the Equals method.
+            Note that if both f1 and f2 are null, this method should return true.  If one is
+            null and one is not, this method should return false.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.op_Inequality(SpreadsheetUtilities.Formula,SpreadsheetUtilities.Formula)">
+            <summary>
+            Reports whether f1 != f2, using the notion of equality from the Equals method.
+            Note that if both f1 and f2 are null, this method should return false.  If one is
+            null and one is not, this method should return true.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.GetHashCode">
+            <summary>
+            Returns a hash code for this Formula.  If f1.Equals(f2), then it must be the
+            case that f1.GetHashCode() == f2.GetHashCode().  Ideally, the probability that two 
+            randomly-generated unequal Formulae have the same hash code should be extremely small.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.IsValidToken(System.String,System.Int32@,System.Int32@)">
+            <summary>
+            Helps check if a current token in a formula is either the following:
+            
+            ~A valid variable
+            ~A floating point number
+            ~A valid operator
+            
+            </summary>
+            <param name="token">the current string to check</param>
+            <returns>true if the token meets any of the three criteria above and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.ComputeResult(System.String,System.Double@,System.Double@)">
+            <summary>
+            Depending on which of the four arithmetic operator, this helper computes 
+            the respective expression
+            </summary>
+            <param name="oper">the arithmetic operator</param>
+            <param name="firstValue">value after popping the operand stack once</param>
+            <param name="secondValue">value after popping the operand stack again</param>
+            <returns>the result in an object form</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.DesignateTokenToCorrectStack(System.Collections.Generic.Stack{System.String},System.Collections.Generic.Stack{System.Double},System.String,System.Func{System.String,System.Double})">
+            <summary>
+            Helps take each token in a given formula and pushes them into their respective stacks
+            </summary>
+            <param name="operators"></param>
+            <param name="operands"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.ArithmeticOperatorAlgorithm(System.Collections.Generic.Stack{System.String},System.Collections.Generic.Stack{System.Double})">
+            <summary>
+            Helps perform the formula evaluator algorithm depending on which of the four
+            arithmetic operators is currently on top of the operator stack
+            </summary>
+            <param name="operatorStack">Stack containing operators</param>
+            <returns>true if the algorithm is able to perform without exceptions 
+            with respect to the stack and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.RightParenthesisAlgorithm(System.Collections.Generic.Stack{System.String},System.Collections.Generic.Stack{System.Double})">
+            <summary>
+            Helps perform the formula evaluator algorithm in the case there exists either
+            a multiply or divide operator on the operator stack
+            </summary>
+            <param name="operatorStack">contains the operators</param>
+            <param name="operandStack">contains the operands</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.TestFormulaThroughPremlinaryErrorChecks(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Func{System.String,System.String},System.Func{System.String,System.Boolean})">
+            <summary>
+            Helps check for errors on formula before checking every token in entire formula
+            </summary>
+            <param name="formula">the formula in string form</param>
+            <param name="normalize">our normalizer that uppercases variable names</param>
+            <param name="isValid">our verifier to see if formula is correct</param>
+            <returns></returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.IsValidOperandOrVariable(System.String)">
+            <summary>
+            Reports whether the current token is a valid variable or operand
+            </summary>
+            <param name="token"></param>
+            <returns>true if token is valid variable or operand and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.BothTokensAreSameArithmeticOperators(System.String,System.String)">
+            <summary>
+            Helps determine if two tokens contain same operator amongst each other
+            </summary>
+            <returns>true if both tokens contain same operator and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.IsValidDecimalOrVariableOrRightParenthesis(System.String)">
+            <summary>
+            Helps check if a token is either a valid variable, decimal, or a right parenthesis
+            </summary>
+            <param name="token">the current token to check</param>
+            <returns>true if it's either of the three tokens above and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.IsValidOperator(System.Int32@,System.Int32@,System.String)">
+            <summary>
+            Helps determine if a given token is a valid operator; that is, the token 
+            is either a "+", "-", "*", "/", "(", or ")"; also checks for equal number
+            of parentheses 
+            </summary>
+            <param name="leftCounter">counts how many left parentheses</param>
+            <param name="rightCounter">counts how many right parentheses</param>
+            <param name="token">current token to check if valid</param>
+            <returns>true if the token is a valid operator and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.TwoFormulasHaveMatchingTokens(System.String,System.String)">
+            <summary>
+            Helps compare two tokens in either in decimal form (if parsable to a decimal)
+            or in string form, or both from two formula objects 
+            </summary>
+            <param name="thisFormulaToken">the token coming from "this" Formula object</param>
+            <param name="otherFormulaToken">the token coming from the "other" Formula object</param>
+            <returns></returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.IsVariable(System.String)">
+            <summary>
+            Verifies if a token in a formula is a variable (assuming it follows the syntax rules
+            of what qualifies to be a valid variable name)
+            </summary>
+            <param name="token">The current token in a formula</param>
+            <returns>true if a token is a variable and false otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.Formula.GetTokens(System.String)">
+            <summary>
+            Given an expression, enumerates the tokens that compose it.  Tokens are left paren;
+            right paren; one of the four operator symbols; a string consisting of a letter or underscore
+            followed by zero or more letters, digits, or underscores; a double literal; and anything that doesn't
+            match one of those patterns.  There are no empty tokens, and no token contains white space.
+            </summary>
+        </member>
+        <member name="T:SpreadsheetUtilities.FormulaFormatException">
+            <summary>
+            Used to report syntactic errors in the argument to the Formula constructor.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.FormulaFormatException.#ctor(System.String)">
+            <summary>
+            Constructs a FormulaFormatException containing the explanatory message.
+            </summary>
+        </member>
+        <member name="T:SpreadsheetUtilities.FormulaError">
+            <summary>
+            Used as a possible return value of the Formula.Evaluate method.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.FormulaError.#ctor(System.String)">
+            <summary>
+            Constructs a FormulaError containing the explanatory reason.
+            </summary>
+            <param name="reason"></param>
+        </member>
+        <member name="P:SpreadsheetUtilities.FormulaError.Reason">
+            <summary>
+             The reason why this FormulaError was created.
+            </summary>
+        </member>
+    </members>
+</doc>

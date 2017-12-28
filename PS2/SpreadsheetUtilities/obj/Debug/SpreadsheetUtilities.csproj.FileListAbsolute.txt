@@ -1,0 +1,7 @@
+C:\Users\antho\source\repos\u0934661\PS2\SpreadsheetUtilities\bin\Debug\SpreadsheetUtilities.dll
+C:\Users\antho\source\repos\u0934661\PS2\SpreadsheetUtilities\bin\Debug\SpreadsheetUtilities.pdb
+C:\Users\antho\source\repos\u0934661\PS2\SpreadsheetUtilities\obj\Debug\SpreadsheetUtilities.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\u0934661\PS2\SpreadsheetUtilities\obj\Debug\SpreadsheetUtilities.dll
+C:\Users\antho\source\repos\u0934661\PS2\SpreadsheetUtilities\obj\Debug\SpreadsheetUtilities.pdb
+C:\Users\antho\Source\Repos\u0934661\PS2\SpreadsheetUtilities\obj\Debug\SpreadsheetUtilities.csprojResolveAssemblyReference.cache
+C:\Users\antho\Source\Repos\u0934661\PS2\SpreadsheetUtilities\bin\Debug\SpreadsheetUtilities.xml

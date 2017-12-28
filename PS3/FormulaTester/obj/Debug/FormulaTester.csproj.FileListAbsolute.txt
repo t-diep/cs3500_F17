@@ -1,0 +1,16 @@
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\FormulaTester.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\FormulaTester.pdb
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Formula.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Formula.pdb
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\obj\Debug\FormulaTester.csprojResolveAssemblyReference.cache
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\obj\Debug\FormulaTester.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\obj\Debug\FormulaTester.dll
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\obj\Debug\FormulaTester.pdb
+C:\Users\antho\Source\Repos\u0934661\PS3\FormulaTester\bin\Debug\Formula.xml

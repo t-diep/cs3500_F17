@@ -1,0 +1,15 @@
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\PS3_GradingTests.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\PS3_GradingTests.pdb
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Formula.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Formula.xml
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\obj\Debug\PS3_GradingTests.csprojResolveAssemblyReference.cache
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\obj\Debug\PS3_GradingTests.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\obj\Debug\PS3_GradingTests.dll
+C:\Users\antho\source\repos\u0934661\PS3\PS3_GradingTests\obj\Debug\PS3_GradingTests.pdb

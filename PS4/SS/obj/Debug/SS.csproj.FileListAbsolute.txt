@@ -1,0 +1,10 @@
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\bin\Debug\SS.dll
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\bin\Debug\SS.pdb
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\bin\Debug\Formula.dll
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\bin\Debug\SpreadsheetUtilities.dll
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\bin\Debug\Formula.xml
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\bin\Debug\SpreadsheetUtilities.xml
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\obj\Debug\SS.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\obj\Debug\SS.dll
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\obj\Debug\SS.pdb
+C:\Users\antho\Source\Repos\u0934661\PS4\SS\obj\Debug\SS.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\DevelopmentTests.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\DevelopmentTests.pdb
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\SpreadsheetUtilities.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\bin\Release\SpreadsheetUtilities.pdb
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\obj\Release\DevelopmentTests.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\obj\Release\DevelopmentTests.dll
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\obj\Release\DevelopmentTests.pdb
+C:\Users\antho\Source\Repos\u0934661\PS2\DevelopmentTests\obj\Release\DevelopmentTests.csprojResolveAssemblyReference.cache
