@@ -1,0 +1,10 @@
+C:\Users\antho\Downloads\u1034705-PS9\u1034705-PS9\SpaceWars\Client\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\antho\Downloads\u1034705-PS9\u1034705-PS9\SpaceWars\Client\obj\Debug\Client.Form1.resources
+C:\Users\antho\Downloads\u1034705-PS9\u1034705-PS9\SpaceWars\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\antho\Downloads\u1034705-PS9\u1034705-PS9\SpaceWars\Client\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\antho\Downloads\u1034705-PS9\u1034705-PS9\SpaceWars\Client\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\PS9\Client\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\antho\Source\Repos\u0934661\PS9\Client\obj\Debug\Client.Form1.resources
+C:\Users\antho\Source\Repos\u0934661\PS9\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\antho\Source\Repos\u0934661\PS9\Client\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\antho\Source\Repos\u0934661\PS9\Client\obj\Debug\View.csproj.CoreCompileInputs.cache

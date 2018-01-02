@@ -1,0 +1,7 @@
+C:\Users\antho\source\repos\u0934661\PS7\Model\bin\Debug\Model.dll
+C:\Users\antho\source\repos\u0934661\PS7\Model\bin\Debug\Model.pdb
+C:\Users\antho\source\repos\u0934661\PS7\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\antho\source\repos\u0934661\PS7\Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\antho\source\repos\u0934661\PS7\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\u0934661\PS7\Model\obj\Debug\Model.dll
+C:\Users\antho\source\repos\u0934661\PS7\Model\obj\Debug\Model.pdb

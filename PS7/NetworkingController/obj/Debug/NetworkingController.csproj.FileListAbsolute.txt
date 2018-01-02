@@ -1,0 +1,7 @@
+C:\Users\antho\source\repos\u0934661\PS7\NetworkingController\bin\Debug\NetworkingController.dll
+C:\Users\antho\source\repos\u0934661\PS7\NetworkingController\bin\Debug\NetworkingController.pdb
+C:\Users\antho\source\repos\u0934661\PS7\NetworkingController\bin\Debug\Newtonsoft.Json.dll
+C:\Users\antho\source\repos\u0934661\PS7\NetworkingController\bin\Debug\Newtonsoft.Json.xml
+C:\Users\antho\source\repos\u0934661\PS7\NetworkingController\obj\Debug\NetworkingController.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\u0934661\PS7\NetworkingController\obj\Debug\NetworkingController.dll
+C:\Users\antho\source\repos\u0934661\PS7\NetworkingController\obj\Debug\NetworkingController.pdb

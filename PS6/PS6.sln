@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpreadsheetGUI", "SpreadsheetGUI\SpreadsheetGUI.csproj", "{9B483E01-9533-43D9-80B8-A63EDB30EB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{A8263B02-C804-436C-93F7-F31DFFF39DA9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Lab9", "Lab9\Lab9.vdproj", "{A8225425-9901-4D58-8FB6-0E81C9841E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B483E01-9533-43D9-80B8-A63EDB30EB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B483E01-9533-43D9-80B8-A63EDB30EB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B483E01-9533-43D9-80B8-A63EDB30EB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B483E01-9533-43D9-80B8-A63EDB30EB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8263B02-C804-436C-93F7-F31DFFF39DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8263B02-C804-436C-93F7-F31DFFF39DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8225425-9901-4D58-8FB6-0E81C9841E6D}.Debug|Any CPU.ActiveCfg = Debug
+		{A8225425-9901-4D58-8FB6-0E81C9841E6D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A67862D-EA67-4839-A820-0320B61470AE}
+	EndGlobalSection
+EndGlobal

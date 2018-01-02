@@ -1,0 +1,15 @@
+C:\Users\antho\source\repos\u0934661\PS7\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\antho\source\repos\u0934661\PS7\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\antho\source\repos\u0934661\PS7\View\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\antho\source\repos\u0934661\PS7\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\View.exe.config
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\View.exe
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\View.pdb
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\Model.dll
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\NetworkingController.dll
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\Newtonsoft.Json.dll
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\Model.pdb
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\NetworkingController.pdb
+C:\Users\antho\source\repos\u0934661\PS7\View\bin\Debug\Newtonsoft.Json.xml
+C:\Users\antho\source\repos\u0934661\PS7\View\obj\Debug\View.exe
+C:\Users\antho\source\repos\u0934661\PS7\View\obj\Debug\View.pdb

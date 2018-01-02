@@ -1,0 +1,12 @@
+<SpaceSettings>
+  <UniverseSize>750</UniverseSize>
+  <MSPerFrame>16</MSPerFrame>
+  <FramesPerShot>6</FramesPerShot>
+  <RespawnRate>200</RespawnRate>
+  <MovingStars>false</MovingStars>
+  <Star>
+    <x>0</x>
+    <y>0</y>
+    <mass>0.01</mass>
+  </Star>
+</SpaceSettings>
