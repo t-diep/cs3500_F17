@@ -1,0 +1,16 @@
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\View.exe.config
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\View.exe
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\View.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\Model.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\NetworkController.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\Newtonsoft.Json.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\Model.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\NetworkController.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\bin\Debug\Newtonsoft.Json.xml
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\obj\Debug\View.SpaceWarsGUI.resources
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\obj\Debug\View.exe
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\View\obj\Debug\View.pdb

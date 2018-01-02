@@ -1,0 +1,8 @@
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\bin\Debug\NetworkController.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\bin\Debug\NetworkController.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\bin\Debug\Newtonsoft.Json.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\bin\Debug\Newtonsoft.Json.xml
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\obj\Debug\NetworkController.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\obj\Debug\NetworkController.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\obj\Debug\NetworkController.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\NetworkController\obj\Debug\NetworkController.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\Server.exe.config
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\Server.exe
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\Server.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\Model.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\NetworkController.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\Model.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\NetworkController.pdb
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\obj\Debug\Server.exe
+C:\Users\antho\Source\Repos\u0934661\SpaceWars\Server\obj\Debug\Server.pdb
